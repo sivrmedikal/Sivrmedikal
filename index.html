@@ -1,4 +1,47 @@
 <!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mobil Uyumlu Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mobil Uyumlu Site</h1>
+        <button class="menu-toggle">☰ Menü</button>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Ana Sayfa</a></li>
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">Hizmetler</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Hoş Geldiniz!</h2>
+            <p>Bu site tamamen mobil uyumlu ve responsive bir tasarıma sahiptir.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <script>
+        // Menü Açma/Kapama (Mobil İçin)
+        document.querySelector(".menu-toggle").addEventListener("click", function () {
+            document.querySelector(".nav").classList.toggle("active");
+        });
+    </script>
+
+</body>
+</html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
